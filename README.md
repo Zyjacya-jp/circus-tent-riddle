@@ -12,21 +12,25 @@ A princess is as old (S) as the prince will be (P_future) when the princess is t
 
 5) S = P_future
 
+
+
 #### ####
+
+
 
 Start 5)
 S = P_future
 
-4) -> 5)
+.4) -> 5)
   S = S_future + (P-S)
 
-3) -> 5)
+.3) -> 5)
   S = 2 * P_past + (P - S)
   
-2) -> 5)
+.2) -> 5)
   S = 2 * (S_past + (P - S)) + (P - S)
   
-1) -> 5)
+.1) -> 5)
   S = 2 * [ ((P + S)/2) + (P - S) ] + (P - S)
   
 # Simplify
