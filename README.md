@@ -43,9 +43,15 @@ S = P_future
   
 # Simplify
 S = (2/2)(P + S) + 2(P - S) + (P - S)
+
 S = P + S + (2)P - (2)S + P -S
+
 S = (4)P - (2)S
+
 (3)S = (4)P
+
 S = (4/3)P
+
+
 
 The Princess (S) is 4/3 the age of the Prince (P).
