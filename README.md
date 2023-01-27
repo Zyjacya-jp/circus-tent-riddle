@@ -28,24 +28,24 @@ S = P_future
 
 .3) -> 5)
 
-  S = 2 * P_past + (P - S)
+  S = 2P_past + (P - S)
   
 .2) -> 5)
 
-  S = 2 * (S_past + (P - S)) + (P - S)
+  S = 2(S_past + (P - S)) + (P - S)
   
   
 .1) -> 5)
 
-  S = 2 * [ ((P + S)/2) + (P - S) ] + (P - S)
+  S = 2[ ((P + S)/2) + (P - S) ] + (P - S)
   
   
   
 # Simplify
-S = (2/2)*(P + S) + 2 * (P - S) + (P - S)
-S = P + S + 2*P - 2*S + P -S
-S = 4*P - 2*S
-3*S = 4*P
-S = (4/3) * P
+S = (2/2)(P + S) + 2(P - S) + (P - S)
+S = P + S + (2)P - (2)S + P -S
+S = (4)P - (2)S
+(3)S = (4)P
+S = (4/3)P
 
 The Princess (S) is 4/3 the age of the Prince (P).
